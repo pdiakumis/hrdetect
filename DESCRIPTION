@@ -1,0 +1,39 @@
+Package: signature.tools.lib
+Title: Signature Tools
+Version: 0.0.0.9000
+Authors@R: person("Andrea", "Degasperi", email = "ad923@cam.ac.uk", role = c("aut", "cre"))
+Description: R package with useful functions for mutational signatures analysis.
+Depends: R (>= 3.2.1)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+biocViews: 
+Imports: 
+    VariantAnnotation,
+    BSgenome.Hsapiens.UCSC.hg38,
+    BSgenome.Hsapiens.1000genomes.hs37d5,
+    BSgenome.Mmusculus.UCSC.mm10,
+    BSgenome.Cfamiliaris.UCSC.canFam3,
+    SummarizedExperiment,
+    BiocGenerics,
+    GenomeInfoDb,
+    NMF,
+    foreach,
+    doParallel,
+    doMC,
+    lpSolve,
+    ggplot2,
+    methods,
+    cluster,
+    stats,
+    NNLM,
+    nnls,
+    GenSA,
+    gmp,
+    plyr,
+    RCircos,
+    scales,
+    GenomicRanges,
+    IRanges,
+    BSgenome
+RoxygenNote: 6.1.1
