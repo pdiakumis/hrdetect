@@ -1,2 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^examples$
+^scripts$
+^signature\.tools\.lib\.develop\.R$
+^signature\.tools\.lib\.Rproj$

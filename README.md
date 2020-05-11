@@ -1,3 +1,8 @@
+**NOTE - 2020-05-29**:
+This repo is based on a fork from <https://github.com/Nik-Zainal-Group/signature.tools.lib>.
+I have set it up for exploration purposes and to simplify a few of the functions
+for my own needs.
+
 # Signature Tools Lib R package
 
 ## Table of content

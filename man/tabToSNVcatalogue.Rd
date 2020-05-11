@@ -9,7 +9,7 @@ tabToSNVcatalogue(subs, genome.v = "hg19")
 \arguments{
 \item{subs}{data frame with subs from a single sample and the following minimal columns: chr, position, REF, ALT.}
 
-\item{genome.v}{either "hg38" (will load BSgenome.Hsapiens.NCBI.GRCh38), "hg19" (will load BSgenome.Hsapiens.UCSC.hg19) or mm10 (will load BSgenome.Mmusculus.UCSC.mm10::BSgenome.Mmusculus.UCSC.mm10)}
+\item{genome.v}{either "hg38" (will load BSgenome.Hsapiens.NCBI.GRCh38), "hg19" (will load BSgenome.Hsapiens.UCSC.hg19), mm10 (will load BSgenome.Mmusculus.UCSC.mm10::BSgenome.Mmusculus.UCSC.mm10) or canFam3 (will load BSgenome.Cfamiliaris.UCSC.canFam3::BSgenome.Cfamiliaris.UCSC.canFam3)}
 }
 \value{
 returns the SNV catalogue for the given sample
@@ -18,7 +18,7 @@ returns the SNV catalogue for the given sample
 Convert a data frame containing SNV, possibly loaded from a tab seperated text file, to SNV 96 channel trinuclotide context catalogue. The data frame should containt the SNV of a single sample, and the following minimal columns: chr, position, REF, ALT.
 }
 \examples{
-subs <- read.table("subs.tab",sep="\\t",header = TRUE,check.names = FALSE,stringsAsFactors = FALSE)
+subs <- read.table("subs.tab",sep="\t",header = TRUE,check.names = FALSE,stringsAsFactors = FALSE)
 res <- tabToSNVcatalogue(subs,genome.v = "hg19")
 }
 \keyword{SNV}

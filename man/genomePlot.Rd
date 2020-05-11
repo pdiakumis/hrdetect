@@ -4,12 +4,25 @@
 \alias{genomePlot}
 \title{Genome Plot}
 \usage{
-genomePlot(subsVcf.file, indelsVcf.file, cnvsTab.file, rearrBedpe.file,
-  sampleID, genome.v = "hg19", ..., file.ideogram = NULL,
-  plot_title = NULL, no_copynumber = FALSE,
-  no_rearrangements = FALSE, no_indels = FALSE,
-  no_subs_legend = FALSE, out_format = "png", out_path = ".",
-  rearr_only_assembled = FALSE, base.per.unit = NULL)
+genomePlot(
+  subsVcf.file,
+  indelsVcf.file,
+  cnvsTab.file,
+  rearrBedpe.file,
+  sampleID,
+  genome.v = "hg19",
+  ...,
+  file.ideogram = NULL,
+  plot_title = NULL,
+  no_copynumber = FALSE,
+  no_rearrangements = FALSE,
+  no_indels = FALSE,
+  no_subs_legend = FALSE,
+  out_format = "png",
+  out_path = ".",
+  rearr_only_assembled = FALSE,
+  base.per.unit = NULL
+)
 }
 \arguments{
 \item{subsVcf.file}{SNV VCF file. The file should only contain SNV and should already be filtered according to the user preference, as all SNV in the file will be used and no filter will be applied.}
@@ -22,7 +35,7 @@ genomePlot(subsVcf.file, indelsVcf.file, cnvsTab.file, rearrBedpe.file,
 
 \item{sampleID}{Name of the sample.}
 
-\item{genome.v}{set genome version: hg19, hg38 or mm10.}
+\item{genome.v}{set genome version: hg19, hg38, mm10 or canFam3.}
 
 \item{file.ideogram}{name of the file that contain a user defined genome ideogram. Leave to NULL to load appropriate ideogram according to genome version.}
 

@@ -4,9 +4,14 @@
 \alias{plotRearrSignatures}
 \title{Plot Rearrangement Signatures or Catalogues}
 \usage{
-plotRearrSignatures(signature_data_matrix, output_file = NULL,
-  plot_sum = TRUE, overall_title = "", add_to_titles = NULL,
-  mar = NULL)
+plotRearrSignatures(
+  signature_data_matrix,
+  output_file = NULL,
+  plot_sum = TRUE,
+  overall_title = "",
+  add_to_titles = NULL,
+  mar = NULL
+)
 }
 \arguments{
 \item{signature_data_matrix}{matrix of signatures, signatures as columns and channels as rows}

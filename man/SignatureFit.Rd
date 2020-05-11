@@ -4,9 +4,16 @@
 \alias{SignatureFit}
 \title{Mutational Signatures Fit}
 \usage{
-SignatureFit(cat, signature_data_matrix, method = "KLD",
-  bf_method = "CosSim", alpha = -1, doRound = TRUE, verbose = TRUE,
-  n_sa_iter = 500)
+SignatureFit(
+  cat,
+  signature_data_matrix,
+  method = "KLD",
+  bf_method = "CosSim",
+  alpha = -1,
+  doRound = TRUE,
+  verbose = TRUE,
+  n_sa_iter = 500
+)
 }
 \arguments{
 \item{cat}{catalogue matrix, patients as columns, channels as rows}
